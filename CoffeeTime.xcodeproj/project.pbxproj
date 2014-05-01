@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BD854C2191013210053BE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C1191013210053BE73 /* Foundation.framework */; };
+		2BD854C4191013210053BE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C3191013210053BE73 /* CoreGraphics.framework */; };
+		2BD854C6191013210053BE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C5191013210053BE73 /* UIKit.framework */; };
+		2BD854C8191013210053BE73 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C7191013210053BE73 /* CoreData.framework */; };
+		2BD854CE191013210053BE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BD854CC191013210053BE73 /* InfoPlist.strings */; };
+		2BD854D0191013210053BE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD854CF191013210053BE73 /* main.m */; };
+		2BD854D4191013210053BE73 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD854D3191013210053BE73 /* CTAppDelegate.m */; };
+		2BD854D7191013210053BE73 /* CoffeeTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BD854D5191013210053BE73 /* CoffeeTime.xcdatamodeld */; };
+		2BD854D9191013210053BE73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD854D8191013210053BE73 /* Images.xcassets */; };
+		2BD854E0191013210053BE73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854DF191013210053BE73 /* XCTest.framework */; };
+		2BD854E1191013210053BE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C1191013210053BE73 /* Foundation.framework */; };
+		2BD854E2191013210053BE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C5191013210053BE73 /* UIKit.framework */; };
+		2BD854E3191013210053BE73 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854C7191013210053BE73 /* CoreData.framework */; };
+		2BD854EB191013210053BE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BD854E9191013210053BE73 /* InfoPlist.strings */; };
+		2BD854ED191013210053BE73 /* CoffeeTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD854EC191013210053BE73 /* CoffeeTimeTests.m */; };
+		2BD854F81910134A0053BE73 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD854F71910134A0053BE73 /* iPhone.storyboard */; };
+		2BD854FC191013D70053BE73 /* TWTSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD854FB191013D70053BE73 /* TWTSideMenuViewController.m */; };
+		2BD854FE19101BEB0053BE73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD854FD19101BEB0053BE73 /* MapKit.framework */; };
+		2BD8550219101D040053BE73 /* CTMapSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8550119101D040053BE73 /* CTMapSelectionViewController.m */; };
+		2BD8550419102F9E0053BE73 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD8550319102F9E0053BE73 /* galaxy.png */; };
+		2BD85507191030020053BE73 /* CTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD85506191030020053BE73 /* CTMenuViewController.m */; };
+		2BD8551219106A840053BE73 /* CTResizableCircleOverlayRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8551119106A840053BE73 /* CTResizableCircleOverlayRenderer.m */; };
+		2BD8551519106D6B0053BE73 /* CTResizeableCircleOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8551419106D6B0053BE73 /* CTResizeableCircleOverlay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD854E4191013210053BE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD854B6191013210053BE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD854BD191013210053BE73;
+			remoteInfo = CoffeeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BD854BE191013210053BE73 /* CoffeeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD854C1191013210053BE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BD854C3191013210053BE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BD854C5191013210053BE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BD854C7191013210053BE73 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BD854CB191013210053BE73 /* CoffeeTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeTime-Info.plist"; sourceTree = "<group>"; };
+		2BD854CD191013210053BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BD854CF191013210053BE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BD854D1191013210053BE73 /* CoffeeTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeTime-Prefix.pch"; sourceTree = "<group>"; };
+		2BD854D2191013210053BE73 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		2BD854D3191013210053BE73 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		2BD854D6191013210053BE73 /* CoffeeTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoffeeTime.xcdatamodel; sourceTree = "<group>"; };
+		2BD854D8191013210053BE73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BD854DE191013210053BE73 /* CoffeeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD854DF191013210053BE73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BD854E8191013210053BE73 /* CoffeeTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeTimeTests-Info.plist"; sourceTree = "<group>"; };
+		2BD854EA191013210053BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BD854EC191013210053BE73 /* CoffeeTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeTimeTests.m; sourceTree = "<group>"; };
+		2BD854F71910134A0053BE73 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		2BD854FA191013D70053BE73 /* TWTSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTSideMenuViewController.h; sourceTree = "<group>"; };
+		2BD854FB191013D70053BE73 /* TWTSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTSideMenuViewController.m; sourceTree = "<group>"; };
+		2BD854FD19101BEB0053BE73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2BD8550019101D040053BE73 /* CTMapSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMapSelectionViewController.h; sourceTree = "<group>"; };
+		2BD8550119101D040053BE73 /* CTMapSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMapSelectionViewController.m; sourceTree = "<group>"; };
+		2BD8550319102F9E0053BE73 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		2BD85505191030020053BE73 /* CTMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMenuViewController.h; sourceTree = "<group>"; };
+		2BD85506191030020053BE73 /* CTMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMenuViewController.m; sourceTree = "<group>"; };
+		2BD8551019106A840053BE73 /* CTResizableCircleOverlayRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTResizableCircleOverlayRenderer.h; sourceTree = "<group>"; };
+		2BD8551119106A840053BE73 /* CTResizableCircleOverlayRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTResizableCircleOverlayRenderer.m; sourceTree = "<group>"; };
+		2BD8551319106D6B0053BE73 /* CTResizeableCircleOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTResizeableCircleOverlay.h; sourceTree = "<group>"; };
+		2BD8551419106D6B0053BE73 /* CTResizeableCircleOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTResizeableCircleOverlay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD854BB191013210053BE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD854FE19101BEB0053BE73 /* MapKit.framework in Frameworks */,
+				2BD854C4191013210053BE73 /* CoreGraphics.framework in Frameworks */,
+				2BD854C8191013210053BE73 /* CoreData.framework in Frameworks */,
+				2BD854C6191013210053BE73 /* UIKit.framework in Frameworks */,
+				2BD854C2191013210053BE73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD854DB191013210053BE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD854E0191013210053BE73 /* XCTest.framework in Frameworks */,
+				2BD854E3191013210053BE73 /* CoreData.framework in Frameworks */,
+				2BD854E2191013210053BE73 /* UIKit.framework in Frameworks */,
+				2BD854E1191013210053BE73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD854B5191013210053BE73 = {
+			isa = PBXGroup;
+			children = (
+				2BD854C9191013210053BE73 /* CoffeeTime */,
+				2BD854E6191013210053BE73 /* CoffeeTimeTests */,
+				2BD854C0191013210053BE73 /* Frameworks */,
+				2BD854BF191013210053BE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD854BF191013210053BE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854BE191013210053BE73 /* CoffeeTime.app */,
+				2BD854DE191013210053BE73 /* CoffeeTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD854C0191013210053BE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854FD19101BEB0053BE73 /* MapKit.framework */,
+				2BD854C1191013210053BE73 /* Foundation.framework */,
+				2BD854C3191013210053BE73 /* CoreGraphics.framework */,
+				2BD854C5191013210053BE73 /* UIKit.framework */,
+				2BD854C7191013210053BE73 /* CoreData.framework */,
+				2BD854DF191013210053BE73 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BD854C9191013210053BE73 /* CoffeeTime */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8550F19106A5C0053BE73 /* Map Items */,
+				2BD854F9191013700053BE73 /* External Libraries */,
+				2BD854F6191013370053BE73 /* Storyboards */,
+				2BD854FF19101CDF0053BE73 /* View Controllers */,
+				2BD854D2191013210053BE73 /* CTAppDelegate.h */,
+				2BD854D3191013210053BE73 /* CTAppDelegate.m */,
+				2BD854D8191013210053BE73 /* Images.xcassets */,
+				2BD854D5191013210053BE73 /* CoffeeTime.xcdatamodeld */,
+				2BD854CA191013210053BE73 /* Supporting Files */,
+			);
+			path = CoffeeTime;
+			sourceTree = "<group>";
+		};
+		2BD854CA191013210053BE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854CB191013210053BE73 /* CoffeeTime-Info.plist */,
+				2BD854CC191013210053BE73 /* InfoPlist.strings */,
+				2BD854CF191013210053BE73 /* main.m */,
+				2BD854D1191013210053BE73 /* CoffeeTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD854E6191013210053BE73 /* CoffeeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854EC191013210053BE73 /* CoffeeTimeTests.m */,
+				2BD854E7191013210053BE73 /* Supporting Files */,
+			);
+			path = CoffeeTimeTests;
+			sourceTree = "<group>";
+		};
+		2BD854E7191013210053BE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854E8191013210053BE73 /* CoffeeTimeTests-Info.plist */,
+				2BD854E9191013210053BE73 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD854F6191013370053BE73 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854F71910134A0053BE73 /* iPhone.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2BD854F9191013700053BE73 /* External Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2BD854FA191013D70053BE73 /* TWTSideMenuViewController.h */,
+				2BD854FB191013D70053BE73 /* TWTSideMenuViewController.m */,
+			);
+			name = "External Libraries";
+			sourceTree = "<group>";
+		};
+		2BD854FF19101CDF0053BE73 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8550319102F9E0053BE73 /* galaxy.png */,
+				2BD8550019101D040053BE73 /* CTMapSelectionViewController.h */,
+				2BD8550119101D040053BE73 /* CTMapSelectionViewController.m */,
+				2BD85505191030020053BE73 /* CTMenuViewController.h */,
+				2BD85506191030020053BE73 /* CTMenuViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2BD8550F19106A5C0053BE73 /* Map Items */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8551019106A840053BE73 /* CTResizableCircleOverlayRenderer.h */,
+				2BD8551119106A840053BE73 /* CTResizableCircleOverlayRenderer.m */,
+				2BD8551319106D6B0053BE73 /* CTResizeableCircleOverlay.h */,
+				2BD8551419106D6B0053BE73 /* CTResizeableCircleOverlay.m */,
+			);
+			name = "Map Items";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD854BD191013210053BE73 /* CoffeeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD854F0191013210053BE73 /* Build configuration list for PBXNativeTarget "CoffeeTime" */;
+			buildPhases = (
+				2BD854BA191013210053BE73 /* Sources */,
+				2BD854BB191013210053BE73 /* Frameworks */,
+				2BD854BC191013210053BE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeTime;
+			productName = CoffeeTime;
+			productReference = 2BD854BE191013210053BE73 /* CoffeeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD854DD191013210053BE73 /* CoffeeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD854F3191013210053BE73 /* Build configuration list for PBXNativeTarget "CoffeeTimeTests" */;
+			buildPhases = (
+				2BD854DA191013210053BE73 /* Sources */,
+				2BD854DB191013210053BE73 /* Frameworks */,
+				2BD854DC191013210053BE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD854E5191013210053BE73 /* PBXTargetDependency */,
+			);
+			name = CoffeeTimeTests;
+			productName = CoffeeTimeTests;
+			productReference = 2BD854DE191013210053BE73 /* CoffeeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD854B6191013210053BE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fliphouse;
+				TargetAttributes = {
+					2BD854DD191013210053BE73 = {
+						TestTargetID = 2BD854BD191013210053BE73;
+					};
+				};
+			};
+			buildConfigurationList = 2BD854B9191013210053BE73 /* Build configuration list for PBXProject "CoffeeTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BD854B5191013210053BE73;
+			productRefGroup = 2BD854BF191013210053BE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD854BD191013210053BE73 /* CoffeeTime */,
+				2BD854DD191013210053BE73 /* CoffeeTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD854BC191013210053BE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD854CE191013210053BE73 /* InfoPlist.strings in Resources */,
+				2BD854F81910134A0053BE73 /* iPhone.storyboard in Resources */,
+				2BD854D9191013210053BE73 /* Images.xcassets in Resources */,
+				2BD8550419102F9E0053BE73 /* galaxy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD854DC191013210053BE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD854EB191013210053BE73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD854BA191013210053BE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD8551219106A840053BE73 /* CTResizableCircleOverlayRenderer.m in Sources */,
+				2BD8550219101D040053BE73 /* CTMapSelectionViewController.m in Sources */,
+				2BD854D7191013210053BE73 /* CoffeeTime.xcdatamodeld in Sources */,
+				2BD85507191030020053BE73 /* CTMenuViewController.m in Sources */,
+				2BD854D0191013210053BE73 /* main.m in Sources */,
+				2BD854FC191013D70053BE73 /* TWTSideMenuViewController.m in Sources */,
+				2BD8551519106D6B0053BE73 /* CTResizeableCircleOverlay.m in Sources */,
+				2BD854D4191013210053BE73 /* CTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD854DA191013210053BE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD854ED191013210053BE73 /* CoffeeTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD854E5191013210053BE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD854BD191013210053BE73 /* CoffeeTime */;
+			targetProxy = 2BD854E4191013210053BE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD854CC191013210053BE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD854CD191013210053BE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BD854E9191013210053BE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD854EA191013210053BE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD854EE191013210053BE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD854EF191013210053BE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD854F1191013210053BE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeTime/CoffeeTime-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTime/CoffeeTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BD854F2191013210053BE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeTime/CoffeeTime-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTime/CoffeeTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BD854F4191013210053BE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoffeeTime.app/CoffeeTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeTime/CoffeeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoffeeTimeTests/CoffeeTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2BD854F5191013210053BE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoffeeTime.app/CoffeeTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeTime/CoffeeTime-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTimeTests/CoffeeTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD854B9191013210053BE73 /* Build configuration list for PBXProject "CoffeeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD854EE191013210053BE73 /* Debug */,
+				2BD854EF191013210053BE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD854F0191013210053BE73 /* Build configuration list for PBXNativeTarget "CoffeeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD854F1191013210053BE73 /* Debug */,
+				2BD854F2191013210053BE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BD854F3191013210053BE73 /* Build configuration list for PBXNativeTarget "CoffeeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD854F4191013210053BE73 /* Debug */,
+				2BD854F5191013210053BE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BD854D5191013210053BE73 /* CoffeeTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BD854D6191013210053BE73 /* CoffeeTime.xcdatamodel */,
+			);
+			currentVersion = 2BD854D6191013210053BE73 /* CoffeeTime.xcdatamodel */;
+			path = CoffeeTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BD854B6191013210053BE73 /* Project object */;
+}
